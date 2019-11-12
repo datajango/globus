@@ -1,0 +1,30 @@
+
+$color-foreground: white;
+$color-background: #4CAF50;
+$color-border: darkgreen;
+
+.button {
+    background-color: $color-background;
+    border: 1px solid $color-border; 
+    color: $color-foreground;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;    
+
+    &:not(.disabled):hover {
+        background-color: $color-foreground;
+        color: $color-background;
+    }       
+
+    &.disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }    
+}
+
