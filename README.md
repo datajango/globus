@@ -551,5 +551,6 @@ Receiving objects: 100% (4/4), done.
 
 1. It Works!
 
-    <h1>The Globus Library has been successfully consumed</h1>
-    ![Globus Library COnsumed](globus-library-consumed.png)
+<h1>The Globus Library has been successfully consumed</h1>
+
+![Globus Library Consumed](globus-library-consumed.png)
